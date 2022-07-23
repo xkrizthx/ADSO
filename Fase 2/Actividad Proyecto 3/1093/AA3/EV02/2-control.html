@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>Control de edades</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script>
+ 
+function algoritmo()
+{
+    let edad, mayores_de_edad, menores_de_edad, n, sumatoria_total;
+    let promedio_de_mayores, promedio_de_menores;
+    edad = parseInt (document.formulario1.edad.value);
+    if(edad<18)
+    {
+        menores_de_edad=menores_de_edad+1;
+        promedio_de_menores=promedio_de_menores+edad;
+    }
+    else
+    {
+        mayores_de_edad=mayores_de_edad+1;
+        promedio_de_mayores=promedio_de_mayores+edad;
+    }
+    sumatoria_total=sumatoria_total+edad;
+}
+ 
+        </script>
+    </head>
+    <body>
+        <form name="formulario1">
+            <table style="text-align: left; margin-left: auto; margin-right: auto;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="edad">Ingresa el valor de edad:</label>
+                        </td>
+                        <td>
+                            <input name="edad" required="required" step="1" type="number" />
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="algoritmo();" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

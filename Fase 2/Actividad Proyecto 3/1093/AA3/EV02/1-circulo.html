@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>Área y perímetro de un círculo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script>
+ 
+function algoritmo()
+{
+    let area, circunferencia, perimetro, radio;
+    radio = parseFloat (document.formulario1.radio.value);
+    circunferencia=2.0*Math.PI*radio;
+    perimetro=circunferencia;
+    area=Math.PI*radio*radio;
+    document.formulario1.area.value = area;
+    document.formulario1.circunferencia.value = circunferencia;
+    document.formulario1.perimetro.value = perimetro;
+}
+ 
+        </script>
+    </head>
+    <body>
+        <form name="formulario1">
+            <table style="text-align: left; margin-left: auto; margin-right: auto;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="radio">Ingresa el valor de radio:</label>
+                        </td>
+                        <td>
+                            <input name="radio" required="required" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td colspan="2" rowspan="1">
+                            <input value="Procesar" type="button" onclick="algoritmo();" />
+                            <input type="reset" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="area">Valor de area:</label>
+                        </td>
+                        <td>
+                            <input name="area" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="circunferencia">Valor de circunferencia:</label>
+                        </td>
+                        <td>
+                            <input name="circunferencia" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="perimetro">Valor de perimetro:</label>
+                        </td>
+                        <td>
+                            <input name="perimetro" step="0.000001" type="number" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>
