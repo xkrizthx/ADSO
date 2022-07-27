@@ -1,24 +1,54 @@
-def run():
+### CREAR UNA ESTRUCTURA PARA ALMACENAR DENTRO DE UN DICCIONARIO UNA LISTA ####
+##diccionario={01:"Valor1",02:"Valor2"}
+#Reto == nota1, nota2, nota3, definitiva ---Decir cuantas personas aprobaron 3.0, 
+#lista == Nombre
+#*****
+diccionario={}
+lista=[]
+opcion=""
+###Crear un menu Añadir(S); Eliminar(E); Imprimir(I); Terminar(T)
+while opcion!="T":
+     print("Que operacion desea realizar Añadir(S); Eliminar(E); Imprimir(I); Aprobaron(A) Terminar(T)")
+     opcion=input("Digite opción ")
+     if opcion=="S":
+          lista=[]
+          clave=int(input("Ingrese el codigo :"))   
+          lista.append(input("Ingrese nombre estudiante :"))  
+          valor=float(input("nota1 :"))    
+          lista.append(valor)  
+          diccionario[clave]=lista
+     if opcion=="E":
+          clave=int(input("Ingrese el código a eliminar :"))
+          valor=diccionario.pop(clave,0)
+          print("Registro borrado ", valor)
+     if opcion=="I":
+          for clave,datos in diccionario.items():  #[01:(fdfdfdfdf, dfdfdfdsdf)]
+            print("Registro :",str(clave)," Estudiante :",datos[0]," nota ", datos[1])
+print(diccionario)
+
+def ordenamientoBurbuja(lista,tam):
+    for i in range(1,tam):
+        for j in range(0,tam-i):
+            if(lista[j] > lista[j+1]):
+                k = lista[j+1]
+                lista[j+1] = lista[j]
+                lista[j] = k
  
-    data = {}
-    N=int(input("Ingrese el número de persona  a encuestar: " ))
-    print('--------------------------------')   
-    for i in range (1,N+1):
-        nombre = input('Ingrese su nombre '+ str(i) + ':')
-        cedula = input('Ingrese su numero de cedula '+ str(i) + ':')
-        fecha = input('Ingrese su Fecha de Nacimiento '+ str(i) + ':')
-        correo = input('Ingrese su correo electronico '+ str(i) + ':')
-        ciudad_residencia = input('Ingrese su ciudad de residencia'+ str(i) + ':')
-        ciudad_origen = input('Ingrese su ciudad de origen '+ str(i) + ':')
-        for x in range(1,3):
-            nom_cantante = input('Por favor Digite su Cantante favorito '+ str(x) + ':')
-            nom_cancion = input('Por favor Digite su Cantante favorito '+ str(x) + ':')
-    data[i]
-    print(data)
-if __name__ == '__main__':
-    run()
-    
+def imprimeLista(lista,tam):
+    for i in range(0,tam):
+        print lista[i]
+ 
+def leeLista():
+    lista=[]
+    cn=int(raw_input("Cantidad de numeros a ingresar: "))
+ 
+    for i in range(0,cn):
+        lista.append(int(raw_input("Ingrese numero %d : " % i)))
+    return lista
+ 
+A=leeLista()
+ordenamientoBurbuja(A,len(A))
+imprimeLista(A,len(A))
 
 
-#diccionario['azul']='Blue'
-#del(diccionario['azul'])
+
