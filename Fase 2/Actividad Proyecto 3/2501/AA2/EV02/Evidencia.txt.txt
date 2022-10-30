@@ -1,0 +1,27 @@
+Muy buenos dias mi nombre es Wilmer Jair Espinosa Silva
+Actualmente soy de la ficha (2455285) Tecnologo ANALISIS Y DESARROLLO DE SOFTWARE. 
+Actualmente estoy laborando como Tester QA en una compania de software 
+mis tareas realizadas en mi dia a dia
+1-Direccion de las seremonias diarias Scrum.
+2-Proporcionar solución de problemas y corrección efectiva  
+4- Desarrollo y gestion de ETL usando Pentaho, generación de reportes y Backup ganurales.
+5- Desarrollo de Scriptining SQL para cumplimiento de resolucionsiones MINSALUD (3374,5858,SUFICIENCIA,TECNOSALUD).
+6- Proporcionar los datos de una manera accesible y apropiada a los usuarios y Data Scientists (Power Bi, Excel, Pdf).
+7- Desarrollo de robots con Rocket-bot y Python.
+8- Optimizacion y operacion de PostregSQL.
+
+
+
+-----------------------------------------------------
+
+Good morning, my name is Wilmer Jair Espinosa Silva.
+I am currently on the file (2455285) Technologist ANALYSIS AND DEVELOPMENT OF SOFTWARE.
+I am currently working as a QA Tester in a software company
+my tasks performed in my day to day
+* Direction of the daily Scrum sermons.
+* Provide effective troubleshooting and correction
+* Development and management of ETL using Pentaho, generation of reports and Ganural Backup.
+* Development of SQL Scriptining for compliance with MINSALUD resolutions (3374, 5858, SUFFICIENCY, TECNOSALUD).
+* Provide data in an accessible and appropriate way to users and Data Scientists (Power Bi, Excel, Pdf).
+* Desarrollo de robots con Rocket-bot y Python.
+* Optimizacion y operacion de PostregSQL.
