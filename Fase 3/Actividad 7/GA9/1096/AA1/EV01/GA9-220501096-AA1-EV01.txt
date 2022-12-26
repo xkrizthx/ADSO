@@ -1,0 +1,57 @@
+Diseñar casos de prueba para comprobar la funcionalidad de un portafolio web de desarrollador implica definir diferentes escenarios de prueba que permitan evaluar el comportamiento del sitio web en diferentes condiciones y situaciones. A continuación te presento algunos pasos que puedes seguir para diseñar casos de prueba para un portafolio web de desarrollador en los casos de uso:
+
+Identifica los casos de uso del portafolio web. Un caso de uso es una descripción de cómo un usuario o sistema interactúa con el sitio web para realizar una tarea o cumplir un objetivo. Algunos ejemplos de casos de uso para un portafolio web de desarrollador podrían incluir "navegar por el sitio", "ver detalles de proyectos", "enviar un mensaje de contacto" o "iniciar sesión".
+
+Define los objetivos de cada caso de uso. Para cada caso de uso, es importante determinar qué es lo que se quiere comprobar o evaluar con el caso de prueba. Por ejemplo, si el caso de uso es "ver detalles de proyectos", el objetivo podría ser comprobar que se muestran todos los detalles del proyecto correctamente y que se pueden acceder a ellos de forma fácil y rápida.
+
+Diseña los escenarios de prueba para cada caso de uso. Un escenario de prueba es un conjunto de condiciones y acciones que se deb
+---------------------------------------------------------------------
+
+
+Diseñar casos de prueba para comprobar la funcionalidad de un portafolio web implica definir diferentes escenarios de prueba que permitan evaluar el comportamiento del sitio web en diferentes condiciones y situaciones. A continuación te presento algunos pasos que puedes seguir para diseñar casos de prueba para un portafolio web en los casos de uso:
+
+Identifica los casos de uso del portafolio web. Un caso de uso es una descripción de cómo un usuario o sistema interactúa con el sitio web para realizar una tarea o cumplir un objetivo. Algunos ejemplos de casos de uso para un portafolio web podrían incluir "navegar por el sitio", "buscar proyectos", "enviar un mensaje de contacto" o "iniciar sesión".
+
+Define los objetivos de cada caso de uso. Para cada caso de uso, es importante determinar qué es lo que se quiere comprobar o evaluar con el caso de prueba. Por ejemplo, si el caso de uso es "navegar por el sitio", el objetivo podría ser comprobar que el sitio se carga correctamente y que los enlaces funcionan correctamente.
+
+Diseña los escenarios de prueba para cada caso de uso. Un escenario de prueba es un conjunto de condiciones y acciones que se deben cumplir para evaluar el comportamiento del sitio web en un caso de uso determinado. Por ejemplo, para el caso de uso "navegar por el sitio", un escenario de prueba podría incluir:
+
+Acceder al sitio web desde un navegador web
+Hacer clic en diferentes enlaces del menú de navegación
+Verificar que se carga la página correcta al hacer clic en cada enlace
+Especifica los pasos detallados para cada escenario de prueba. Para cada escenario de prueba, es importante definir de forma detallada los pasos que se deben seguir para evaluar el comportamiento del sitio web. Por ejemplo, para el escenario de prueba "navegar por el sitio" mencionado anteriormente, los pasos detallados podrían ser:
+
+Abrir el navegador web y acceder a la dirección del sitio web
+
+Hacer clic en el enlace "Proyectos" del menú de navegación
+
+Verificar que se carga la página de proyectos y que se muestra el contenido correcto
+
+Hacer clic en el enlace "Sobre mí" del menú de navegación
+
+---------------------------------------------------------
+Algunos ejemplos de casos de uso que puedes considerar para un portafolio web de desarrollador son:
+
+Navegar por el sitio: evaluar el comportamiento del sitio web al navegar por diferentes páginas y secciones.
+Ver detalles de proyectos: evaluar la presentación y accesibilidad de la información de los proyectos mostrados en el sitio web.
+Enviar un mensaje de contacto: evaluar el proceso de envío de un mensaje de contacto a través del formulario de contacto del sitio web.
+Iniciar sesión: evaluar el proceso de inicio de sesión y la gestión de la sesión de usuario en el sitio web.
+Ver y descargar CV: evaluar la disponibilidad y accesibilidad del CV del desarrollador en el sitio web.
+Ver y descargar portafolio: evaluar la disponibilidad y accesibilidad del portafolio del desarrollador en el sitio web.
+Ver testimonios
+
+---------------------------------------------------------
+
+
+Las pruebas unitarias son un tipo de prueba de software que se realizan para evaluar el comportamiento de una unidad individual de código, como una función o un módulo. Algunas pruebas unitarias que podrías realizar en un portafolio web de desarrollador son:
+
+Comprobar que las funciones de validación de formularios devuelven los resultados esperados para diferentes entradas de datos.
+Verificar que las funciones de gestión de sesión de usuario funcionan correctamente al iniciar y cerrar sesión y al comprobar el estado de la sesión.
+Evaluar el comportamiento de las funciones encargadas de recuperar y mostrar la información de los proyectos y del CV del desarrollador.
+Comprobar que las funciones de envío de mensajes de contacto funcionan correctamente y validan correctamente los datos del formulario.
+Verificar que las funciones de carga y visualización de imágenes en el sitio web funcionan correctamente.
+Evaluar el comportamiento de las funciones encargadas de gestionar y mostrar los testimonios de clientes en el sitio web.
+Comprobar que las funciones de búsqueda en el sitio web funcionan correctamente y devuelven los resultados esperados.
+
+
+---------------------------------------------------------
